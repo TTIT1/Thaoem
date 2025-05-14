@@ -11,15 +11,15 @@ const images = [
 ];
 
 const messages = [
-    'Chúc em luôn xinh đẹp và hạnh phúc nhé!',
-    'Cảm ơn em đã đến bên anh, cùng anh đi qua bao kỷ niệm.',
-    'Mỗi khoảnh khắc bên em đều thật tuyệt vời.',
-    'Anh mong em luôn cười thật tươi như thế này!',
-    'Dù có chuyện gì, anh cũng sẽ luôn bên em.',
-    'Chúc em tuổi mới nhiều thành công và may mắn!',
-    'Mỗi ngày bên em là một ngày thật ý nghĩa.',
-    'Chúc em luôn tự tin, mạnh mẽ và rạng rỡ như ánh mặt trời!',
-    'Anh sẽ luôn ở đây, cùng em vượt qua mọi thử thách. Yêu em nhiều!' 
+        'Chúc em mỗi ngày đều tràn ngập niềm vui và yêu thương.',
+        'Cảm ơn em vì đã mang ánh sáng đến cuộc đời anh.',
+        'Em là điều tuyệt vời nhất mà anh từng có.',
+        'Anh mong em luôn giữ được trái tim ấm áp và nụ cười dịu dàng ấy.',
+        'Chỉ cần em hạnh phúc, anh sẵn sàng làm mọi thứ.',
+        'Chúc em luôn đạt được những điều em mong muốn trong cuộc sống.',
+        'Anh thấy may mắn vì có em ở bên cạnh mỗi ngày.',
+        'Hãy cứ là chính em – xinh đẹp, bản lĩnh và đầy yêu thương.',
+        'Tình yêu anh dành cho em sẽ mãi không thay đổi. Mãi bên em!',
 ];
 
 const finalBackground = 'images/img7.png';
