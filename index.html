@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chúc mừng sinh nhật em yêu !</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hearts"></div>
+    <div class="birthday-container">
+        <div class="image-wrapper">
+            <img id="birthday-image" src="" alt="Ảnh kỷ niệm">
+        </div>
+        <div class="message" id="birthday-message"></div>
+        <button id="next-btn">Tiếp theo</button>
+    </div>
+    <div id="love-modal" class="modal" style="display:none;">
+        <div class="modal-content">
+            <div class="modal-question">Em đồng ý làm người yêu anh nha?</div>
+            <div class="modal-actions">
+                <button id="accept-btn">Em đồng ý</button>
+                <button id="decline-btn">Tôi không thèm</button>
+            </div>
+        </div>
+    </div>
+    <div id="final-image" class="final-image" style="display:none;">
+        <div class="flyup-container"></div>
+        <div class="final-image-wrapper">
+            <img src="images/love.jpg" alt="Yêu thương" />
+            <div class="thankyou-text">
+                <span class="thankyou-content">
+                    Anh cảm ơn em vì đã chọn anh, đã tin anh. Chính cái ánh mắt với nụ cười này khiến anh biết mình chọn đúng người, ít nhất là hiện tại. Anh sẽ luôn trân trọng và yêu thương em thật nhiều!
+                </span>
+            </div>
+        </div>
+    </div>
+    <div id="decline-toast" class="decline-toast" style="display:none;">
+        <span class="toast-icon">😠</span>
+        <span class="toast-msg">Muốn chết hả mà bấm 'Không thèm'?</span>
+    </div>
+    <audio id="bg-music" src="audio/music.mp3" loop></audio>
+    <button id="music-btn" class="music-btn">Bật nhạc</button>
+    <div id="json-modal" class="modal" style="display: flex;">
+        <div class="modal-content">
+            <div class="json-birthday-text" style="margin-bottom: 12px; color: #d72660; font-size: 1.15rem; font-weight: 600;">Chúc mừng sinh nhật eiu!<br>Mong ngày đặc biệt này của eiu đầy ắp niềm vui, nụ cười<br>và những khoảnh khắc đáng nhớ bên những người thân yêu.<br>Hãy tận hưởng thật trọn vẹn nhé! 🎉🎂</div>
+            <div id="json-lottie" style="width:320px; height:320px; margin:auto;"></div>
+            <button id="start-btn">Bắt đầu</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+</body>
+</html>
